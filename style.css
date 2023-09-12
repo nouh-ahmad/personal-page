@@ -1,0 +1,351 @@
+
+
+
+/* Reset default margin and padding */
+body, h1, h2, h4, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+.job-description-text{
+  font-family:  'Pacifico', cursive; 
+}
+
+
+
+/* Set box-sizing to border-box for easier layout */
+* {
+  box-sizing: border-box;
+}
+
+/* Set background color and text color */
+body {
+ 
+ 
+  
+  
+  background-color: lightgray;
+  color: #333333;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+
+/* Page container */
+.page-container {
+  background-color: #f9f9f9;
+  max-width: 800px;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header section */
+header.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dddddd;
+  
+
+  
+}
+
+.logo.box {
+  display: flex;
+  align-items: center;
+}
+
+h2.first.name {
+  margin-right: 5px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-main-menu {
+  list-style-type: none;
+  display: flex;
+}
+
+.site-main-menu li {
+  margin-right: 10px;
+}
+
+.site-main-menu li:last-child {
+  margin-right: 0;
+}
+
+input[type="tel"] {
+  padding: 5px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+button.star.search {
+  background-color: #dddddd;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #333333;
+  cursor: pointer;
+}
+
+/* Main section */
+main {
+  display: flex;
+  margin-top: 20px;
+}
+
+.left-column-main {
+  flex: 1;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #dddddd;
+  background-image: url('default-photo.jpg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
+  
+}
+.profile-image:hover {
+  transform: translate(0%, 0%) rotate(360deg) scale(1.2);
+  transition: transform 0.8s ease;/* Add a transition for smooth animation */
+}
+/* Style the menu items */
+.site-main-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-item {
+  display: inline-block;
+  margin-right: 20px; /* Add spacing between items */
+}
+
+/* Style the menu content container */
+.menu-content {
+  text-align: center;
+}
+
+/* Style the icons */
+.menu-content img.icons {
+  width: 24px;
+  height: 24px;
+  display: block;
+  margin: 0 auto 8px; /* Add spacing between icon and text */
+}
+
+/* Style the link text */
+.menu-content a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+/* Style the link on hover */
+.menu-content a:hover {
+  color: #0074e4;
+}
+
+
+
+.right-column-main {
+  flex: 3;
+  padding-left: 20px;
+  margin-top: 5px;
+  
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-descreption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.home-buttons {
+  margin-top: 35px;
+  
+  text-align: center;
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #867c7c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1173db;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-right: 10px;
+  
+  
+}
+
+.button:last-child {
+  margin-right: 0;
+}
+
+/* Competences section */
+h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+
+  
+  .left-col-com {
+    
+    padding-right: 20px;
+   
+  }
+  .left-col-com :hover{
+    transition: 3s;
+    padding: 1s ;
+    
+    transform: translatey(6%);
+    filter: brightness(0.9);
+    
+    
+    background-color:#b15bdc;
+
+  }
+  
+  .column2 {
+    display: flex;
+  }
+  
+  .comp-text {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+background-color: #e9f2ea;
+  }
+  
+  
+  .right-column-com {
+    flex: 1;
+    padding-right: 20px;
+    
+    
+  }
+  .right-col-com :hover{
+    transition: 3s;
+    padding: 1s ;
+    transform: translatey(6%);
+    filter: brightness(0.9);
+    
+    
+    background-color: #b15bdc;
+    
+
+  }
+  
+
+/* Footer section */
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Table header styling */
+th {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px;
+}
+.button {
+    /* Button styles */
+  
+    /* Add the following to create a hover effect */
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #4b2222; /* Update with your desired hover background color */
+    color: #fff; /* Update with your desired hover text color */
+  }
+  .menu-item{
+
+  }
+  p{
+    line-height: 30px;
+  }
+  .h2:hover{
+    background-color: #4b2222;
+    color:#fff ;
+  }
+  .coockie-notice{
+    border: solid #007ced 2px; 
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    position: fixed;
+    left: 2%;
+    z-index: 50;
+    bottom: 3vh;
+    -webkit-box-shadow:0px 5px 10px 0px rgb(150 144 162 /10%);
+    box-shadow:0px 5px 10px 0px rgb(150 144 162 /10%) ;
+    width: 50%;
+    padding: 10px 15px;
+    background-image: url(bg-cookies.avif); 
+    background-size: cover; 
+  }
+  .right-coockie{
+    width: 50%;
+    padding-left: 40px;
+    padding-top: 65px;
+
+  }
+  .h5{
+    margin-bottom: 8px!important;
+
+
+  }
+  a.button-decline { padding: 10px; border: solid 2px #6c6c6c; border-radius: 5px; background: #6c6c6c; color: white; text-decoration: none; margin-right: 10px; }
+  form {
+    display: inline-block;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #0074e4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
